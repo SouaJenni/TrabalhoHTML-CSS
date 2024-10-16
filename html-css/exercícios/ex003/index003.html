@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+
+    <style>
+        #Exercício {
+            position: relative;
+            left: 10px;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        #DAINF {
+            position:relative;
+            left: 80px;
+            top: -30px;
+            font-size: 70px;
+        }
+
+        #Chefia {
+            position:relative;
+            left: 140px;
+            top: -80px;
+            font-weight: bold ;
+            font-size: 20px;
+        }
+
+        #Coordenadores {
+            position:relative;
+            left: 195px;
+            top: -120px;
+            font-size: 60px;
+            font-style: oblique;
+            text-decoration: underline;
+            background-color: rgb(0, 85, 243);
+        }
+
+        #Métrica {
+            position:relative;
+            left: 195px;
+            top: -161px;
+            font-size: 40px;
+            background-color: brown;
+        }
+
+        #Cadastrar {
+            position:relative;
+            left: 250px;
+            top: -198px;
+            font-size: 40px;
+            background-color: brown;
+        }
+
+        #Docentes {
+            position:relative;
+            left: 10px;
+            top: -231px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #Documentos {
+            position:relative;
+            left: 140px;
+            top: -264px;
+            font-size: 40px;
+            background-color: rgb(201, 201, 201);
+        }
+
+        #Estrutura {
+            position:relative;
+            left: 140px;
+            top: -330px;
+            font-size: 80px;
+        }
+
+        #Secretaria {
+            position:relative;
+            left: 250px;
+            top: -380px;
+            font-style: italic;
+            font-size: 15px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        #Notícias {
+            position:relative;
+            left: 80px;
+            top: -390px;
+        }
+
+        .container_verde {
+            float: right;
+            background-color: darkgreen;
+            position: inherit;
+            left: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício CSS 1</h1>
+    <ul class="menu">
+        <li><span class="destaque">.DAINF</span>
+            <ul>
+                <li>Chefia & Coordenação
+                    <ul class="coord">
+                        <li class="coordenadores">Coordenadores</li>
+                        <li class="metrica">Métrica
+                            <ul>
+                                <li>Cadastrar (restrito)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Docentes</li>
+                <li>Documentos/Instruções</li>
+                <li class="estrutura">Estrutura
+                    <p class="info">Secretaria e Laboratórios</p>
+                </li>
+                <li>Notícias</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
