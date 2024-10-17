@@ -1,0 +1,59 @@
+.menu{
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.destaque{
+    font-size: 50px;
+}
+
+.chefia{
+    background-color: rgb(0, 97, 0);
+}
+
+li.coordenadores{
+    font-size: 50px;
+    font-weight: 550;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: rgb(29, 100, 255);
+}
+
+li.metrica{
+    font-size: 34px;
+    background-color: rgb(247, 64, 64);
+}
+
+.docentes{
+    background-color: rgb(29, 100, 255);
+    background-position: right;
+    list-style-position: outside;
+}
+
+.documentos{
+    font-size: 32px;
+    background: repeating-linear-gradient(
+        -45deg,
+        #bdbdbd,
+        #bdbdbd 3px,
+        #c7c7c7 2px,
+        #c7c7c7 6px
+      );
+}
+
+li.estrutura{
+    font-size: 80px;
+    background: linear-gradient(180deg, rgb(212, 212, 212) 0%, rgb(228, 227, 227) 35%, rgba(254,254,254,1) 100%);
+}
+
+p.info{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+
+
+   
