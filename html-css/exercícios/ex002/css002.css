@@ -1,0 +1,59 @@
+div{
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+.container-azul {
+    position: relative;
+    right: 260px;
+    background-color: rgb(0, 17, 250);
+    height: 60px;
+    width: 468px;
+    float: right;
+}
+.container-verde {
+    position: relative;
+    left: 120px;
+    top: 59px;
+    background-color: rgb(5, 92, 5);
+    height: 200px;
+    width: 290px;
+    float: right;
+}
+.container-vermelho {
+    position: relative;
+    top: 59px;
+    left: 120px;
+    background-color: red;
+    height: 200px;
+    width: 90px;
+    float: right;
+    
+}
+.container-amarelo {
+    position: relative;
+    top: 59px;
+    right: 260px;
+    background-color:rgb(248, 248, 102);
+    height: 60px;
+    width: 468px;
+    float: right;
+}
+.container-laranja {
+    position: relative;
+    top: -141px;
+    left: 208px;
+    background-color: orange;
+    height: 150px;
+    width: 88px;
+    float: right;
+}
+.container-cinza {
+    position: relative;
+    top: -90px;
+    left: 110px;
+    background-color: rgb(27, 27, 27);
+    height: 50px;
+    width: 100px;
+    float: right;
+}
