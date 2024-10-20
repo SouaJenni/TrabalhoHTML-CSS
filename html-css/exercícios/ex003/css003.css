@@ -19,15 +19,24 @@ li.coordenadores{
     background-color: rgb(29, 100, 255);
 }
 
-li.metrica{
+li.metrica {
     font-size: 34px;
     background-color: rgb(247, 64, 64);
 }
 
 .docentes{
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: middle ;
+    text-align: center;
+}
+
+.container-azul{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
     background-color: rgb(29, 100, 255);
-    background-position: right;
-    list-style-position: outside;
+    vertical-align: middle;
 }
 
 .documentos{
@@ -47,11 +56,16 @@ li.estrutura{
 }
 
 p.info{
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
     text-decoration: underline;
+    list-style-type: circle;
+    position: relative;
+    left: 90px;
+}
+
+.noticias{
     list-style-type: disc;
-    list-style-position: outside;
 }
 
 
